@@ -1,0 +1,65 @@
+{
+  "name": "Crib Coach",
+  "short_name": "Crib Coach",
+  "description": "Practice cribbage hand scoring and sharpen your discard strategy. Features score practice with full breakdowns, crib discard analysis, timed challenge mode, and streak tracking.",
+  "id": "./index.html",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#145227",
+  "theme_color": "#145227",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": ["games", "education", "entertainment"],
+
+  "icons": [
+    {
+      "src": "app_icon2.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+
+  "screenshots": [
+    {
+      "src": "screenshots/score-practice.png",
+      "sizes": "1080x2131",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Score Practice — enter your hand score and get a full breakdown"
+    },
+    {
+      "src": "screenshots/crib-discard.png",
+      "sizes": "1079x2139",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Crib Discard — see all 15 discard options ranked by expected score"
+    },
+    {
+      "src": "screenshots/stat_tracking.png",
+      "sizes": "1078x2165",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Stat Tracking — track your progress over time and see detailed stats on your scoring and discard performance"
+    }
+  ],
+
+  "shortcuts": [
+    {
+      "name": "Score Practice",
+      "short_name": "Score",
+      "description": "Jump straight into hand scoring practice",
+      "url": "./index.html?tab=score",
+      "icons": [{ "src": "app_icon2.png", "sizes": "1024x1024" }]
+    },
+    {
+      "name": "Crib Discard",
+      "short_name": "Discard",
+      "description": "Practice crib discard strategy",
+      "url": "./index.html?tab=crib",
+      "icons": [{ "src": "app_icon2.png", "sizes": "1024x1024" }]
+    }
+  ]
+}
